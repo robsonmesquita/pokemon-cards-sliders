@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider</title>
+
+    <link rel="shortcut icon" href="src/img/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&family=Outfit&family=Poppins:wght@300;500;800&family=Roboto+Mono&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reponsivo.css">
+    <script src="src/js/index.js" defer></script>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/img/pokebola.png" alt="pokébola" class="pokebola">
+        <h1 class="titulo">Cards Pokémon</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar"><img src="src/img/seta.png" alt="seta voltar" id="btn-voltar"></button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado  fundo-1">
+                <div class="informacao">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/pikachu.png" alt="imagem Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Pikachu é um Pokémon roedor meio gordinho, com o pêlo amarelo em todo o seu corpo.
+                        As orelhas de Pikachu são longas e chegam a um ponto com pontas pretas. Ele tem uma boca
+                        pequena, que se assemelha a um lado tres, tem olhos negros com os alunos brancos e dois círculos
+                        vermelhos em suas bochechas.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2  ">
+                <div class="informacao">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/charizard.png" alt="imagem Charizard" class="imagem-pokemon">
+                </div>
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Ao contrário de suas pré-evoluções, tem asas que lhe permite voar, é um pokemon muito parecido
+                        com um dragão. Como suas formas anteriores, é bípede e tem uma longa cauda com uma chama que só
+                        se apaga quando ele morre.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3   ">
+                <div class="informacao">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/mewtwo.png" alt="imagem Mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mewtwo é uma criatura com uma postura humanóide, mas tem algumas características
+                        felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da cor roxa. Mewtwo tem
+                        três dígitos circulares em cada apêndice. Tem uma ponta no interior de cada um dos pés, como
+                        muitos primatas do mundo real, bem como duas outras que ficam na frente. Ele tem os olhos roxos
+                        e duas orelhas curtas.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-lucario   ">
+                <div class="informacao">
+                    <h2 class="nome">Lucario</h2>
+                    <p class="vida">HP 880</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/lucario.png" alt="imagem Lucario" class="imagem-pokemon">
+                </div>
+
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Ele consegue sentir a aura de todas as coisas e também compreende a fala humana.
+                        Capturando a aura que emana dos outros, pode ler seus movimentos e pensamentos.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-darkrai  ">
+                <div class="informacao">
+                    <h2 class="nome">Darkrai</h2>
+                    <p class="vida">HP 942</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/darkrai.png" alt="imagem Darkrai" class="imagem-pokemon">
+                </div>
+
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Dizem que este Pokémon vaga durantes as noites de lua cheia e adormece as pessoas,
+                        fazendo com que elas tenham pesadelos. Darkrai é mostrado como misterioso e sinistro mas
+                        extremamente incompreendido. Também se mostra uma criatura de hábitos, pois causa pesadelos,
+                        independentemente de quem afeta. No entanto, há muito pouca evidência para provar que isso
+                        assusta maliciosamente os humanos de propósito.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-gengar  ">
+                <div class="informacao">
+                    <h2 class="nome">Gengar</h2>
+                    <p class="vida">HP 500</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/gengar.png" alt="imagem Gengar" class="imagem-pokemon">
+                </div>
+
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Gengar são tipicamente mesquinhos e gostam de atormentar as pessoas, machucando-as
+                        e ultrapassando-as. Eles são mais ativos durante as luas cheias, rastejando na calada da noite e
+                        se disfarçando de sombras; eles podem até entrar em casas adormecidas para se esconder no
+                        escuro.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-arceus  ">
+                <div class="informacao">
+                    <h2 class="nome">Arceus</h2>
+                    <p class="vida">HP 10000</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/arceus.png" alt="imagem Arceus" class="imagem-pokemon">
+                </div>
+
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Acredita-se que Arceus tenha criado a região de Sinnoh e possivelmente todo o
+                        mundo Pokémon, os guardiões do lago Uxie, Azelf e Mesprit; e o trio de criação Dialga, Palkia e
+                        Giratina. Por causa disso, Arceus é considerado um dos mais longevos de todas as espécies de
+                        Pokémon. Além de poder recriar o trio de criação, presumivelmente para guardar e proteger as
+                        dimensões quando um treinador captura um deles. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-lugia   ">
+                <div class="informacao">
+                    <h2 class="nome">Lugia</h2>
+                    <p class="vida">HP 2070</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/img/lugia.png" alt="imagem Lugia" class="imagem-pokemon">
+                </div>
+
+
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Conhecido como o Guardião dos Mares, Lugia é tremendamente inteligente e muito
+                        gentil com a vida ao seu redor, apesar de seu tamanho colossal. Devido ao fato de poder explodir
+                        casas com o simples bater de suas asas, ele se isola profundamente dentro da grande corrente,
+                        para evitar que prejudique a civilização.</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <button class="btn-seta"><img src="src/img/seta.png" alt="seta avancar" id="btn-avancar"></button>
+    </main>
+</body>
+
+</html>
